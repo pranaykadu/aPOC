@@ -1,0 +1,21 @@
+[
+    {
+        "firstName": "pranay",
+        "lastName": "k",
+        "username": "test",
+        "hash": "$2a$10$RdSurg07KvEy9HGpEpHuo.4R/1bxh6BcBQrRIHtqBV9I3IqEOcM5a",
+        "id": 1,
+        "dateCreated": "2023-04-17T11:44:59.466Z",
+        "dateUpdated": "2023-04-17T11:44:59.466Z",
+        "role": "admin"
+    },
+    {
+        "firstName": "pranay",
+        "lastName": "t",
+        "username": "test1",
+        "hash": "$2a$10$Mj1eYyEqV/rtXI4f6cHlceN.NDY0Pkj9up6Slrxk8RrYEGd2OloSi",
+        "id": 2,
+        "dateCreated": "2023-04-17T12:56:27.482Z",
+        "dateUpdated": "2023-04-17T12:56:27.482Z"
+    }
+]
