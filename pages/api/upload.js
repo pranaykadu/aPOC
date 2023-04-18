@@ -21,10 +21,10 @@ export default async function handler(req, res){
         });
 
         try {
-            debugger;
+           
             const imageFile = data.files.image; // .image because I named it in client side by that name: // pictureData.append('image', pictureFile);
             const imagePath = imageFile.filepath;
-            const pathToWriteImage = `public/upload`; // include name and .extention, you can get the name from data.files.image object
+            const pathToWriteImage = `public/upload/${imageFile.originalFilename}`; // include name and .extention, you can get the name from data.files.image object
             const image = await fs.readFile(imagePath);
             await fs.writeFile(pathToWriteImage, image);
             //store path in DB
